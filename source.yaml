@@ -90,6 +90,15 @@ devices:
   - iPad7,4
   - iPad7,1
   - iPad7,2
+# Unsupported iPad Pro versions
+- type: iPadPro
+  version: 16.7.7
+  status: Unsupported
+  hardware:
+  - iPad6,3
+  - iPad6,4
+  - iPad6,7
+  - iPad6,8
 # Supported iPhone versions
 - type: iPhone
   version: 17.4.1

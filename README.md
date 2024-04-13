@@ -1,5 +1,7 @@
 # iOS / iPadOS hardware string to latest OS version mappings
 
+There is also a [Swift Package Manager Package](https://github.com/bes/ios-hw-to-os-spm).
+
 *CONTRIBUTIONS WELCOME*
 
 An incomplete mapping of hardware string to OS version mappings

@@ -217,6 +217,22 @@
       "version": "17.4.1"
     },
     {
+      "hardware": "iPad6,3",
+      "version": "16.7.7"
+    },
+    {
+      "hardware": "iPad6,4",
+      "version": "16.7.7"
+    },
+    {
+      "hardware": "iPad6,7",
+      "version": "16.7.7"
+    },
+    {
+      "hardware": "iPad6,8",
+      "version": "16.7.7"
+    },
+    {
       "hardware": "iPhone16,2",
       "version": "17.4.1"
     },
