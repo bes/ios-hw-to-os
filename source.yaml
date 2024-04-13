@@ -1,4 +1,7 @@
+metadata:
+  last_updated: 2024-04-13
 devices:
+# Supported iPad versions
 - type: iPad
   version: 17.4.1
   status: Supported
@@ -13,13 +16,14 @@ devices:
   - iPad7,12
   - iPad7,5
   - iPad7,6
+# Unsupported iPad versions
 - type: iPad
   version: 16.7.7
   status: Unsupported
   hardware:
   - iPad6,11
   - iPad6,12
-
+# Supported iPad Mini versions
 - type: iPadMini
   version: 17.4.1
   status: Supported
@@ -28,13 +32,14 @@ devices:
   - iPad14,2
   - iPad11,1
   - iPad11,2
+# Unsupported iPad Mini versions
 - type: iPadMini
   version: 15.8.2
   status: Unsupported
   hardware:
   - iPad5,1
   - iPad5,2
-
+# Supported iPad Air versions
 - type: iPadAir
   version: 17.4.1
   status: Supported
@@ -45,13 +50,14 @@ devices:
   - iPad13,2
   - iPad11,3
   - iPad11,4
+# Unsupported iPad Air versions
 - type: iPadAir
   version: 15.8.2
   status: Unsupported
   hardware:
   - iPad5,3
   - iPad5,4
-
+# Supported iPad Pro versions
 - type: iPadPro
   version: 17.4.1
   status: Supported
@@ -84,7 +90,7 @@ devices:
   - iPad7,4
   - iPad7,1
   - iPad7,2
-
+# Supported iPhone versions
 - type: iPhone
   version: 17.4.1
   status: Supported
@@ -114,6 +120,7 @@ devices:
   - iPhone11,4
   - iPhone11,6
   - iPhone11,2
+# Unsupported iPhone versions
 - type: iPhone
   version: 16.7.7
   status: Unsupported
