@@ -1,4 +1,6 @@
-# iOS / iPadOS hardware string to latest OS version mappings
+# ios-hw-to-os
+
+*Mappings from iOS / iPadOS hardware string to latest supported iOS / iPadOS versions*
 
 **CONTRIBUTIONS WELCOME**
 
