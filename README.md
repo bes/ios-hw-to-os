@@ -16,11 +16,18 @@ Sources:
 
 ## How to use
 
-Either just copy [mappings.json](./mappings.json) or use the [Swift Package Manager](https://github.com/bes/ios-hw-to-os-spm)
-package called `ios-hw-to-os-spm`. The page for the Swift package contains
-more usage instructions.
+Either just copy [mappings.json](./mappings.json) or use the Swift Package Manager
+[package ios-hw-to-os-spm](https://github.com/bes/ios-hw-to-os-spm).
+The page for the Swift package contains documentation for the Swift API and
+usage instructions.
 
-## How to contribute
+## Contribtions
+
+Please contribute to this repository to update the YAML and JSON mappings,
+and to [ios-hw-to-os-spm](https://github.com/bes/ios-hw-to-os-spm) repository to
+improve the Swift API.
+
+### How to contribute
 
 You must have [Rust](https://rustup.rs/) installed.
 
