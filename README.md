@@ -1,8 +1,6 @@
 # iOS / iPadOS hardware string to latest OS version mappings
 
-There is also a [Swift Package Manager Package](https://github.com/bes/ios-hw-to-os-spm).
-
-*CONTRIBUTIONS WELCOME*
+**CONTRIBUTIONS WELCOME**
 
 An incomplete mapping of hardware string to OS version mappings
 can be found in the [mappings.json](./mappings.json) file.
@@ -15,6 +13,12 @@ If any of your favorite mappings are missing, feel free to submit a PR.
 Sources:
 * https://en.wikipedia.org/wiki/List_of_iPhone_models
 * https://en.wikipedia.org/wiki/List_of_iPad_models
+
+## How to use
+
+Either just copy [mappings.json](./mappings.json) or use the [Swift Package Manager](https://github.com/bes/ios-hw-to-os-spm)
+package called `ios-hw-to-os-spm`. The page for the Swift package contains
+more usage instructions.
 
 ## How to contribute
 
