@@ -3,7 +3,7 @@ metadata:
 devices:
 # Supported iPad versions
 - type: iPad
-  version: 17.4.1
+  version: 17.5
   status: Supported
   hardware:
   - iPad13,18
@@ -25,7 +25,7 @@ devices:
   - iPad6,12
 # Supported iPad Mini versions
 - type: iPadMini
-  version: 17.4.1
+  version: 17.5
   status: Supported
   hardware:
   - iPad14,1
@@ -41,7 +41,7 @@ devices:
   - iPad5,2
 # Supported iPad Air versions
 - type: iPadAir
-  version: 17.4.1
+  version: 17.5
   status: Supported
   hardware:
   - iPad13,16
@@ -59,7 +59,7 @@ devices:
   - iPad5,4
 # Supported iPad Pro versions
 - type: iPadPro
-  version: 17.4.1
+  version: 17.5
   status: Supported
   hardware:
   - iPad14,3
@@ -101,7 +101,7 @@ devices:
   - iPad6,8
 # Supported iPhone versions
 - type: iPhone
-  version: 17.4.1
+  version: 17.5
   status: Supported
   hardware:
   - iPhone16,2
