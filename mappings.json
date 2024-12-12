@@ -2,367 +2,391 @@
   "devices": [
     {
       "hardware": "iPad13,18",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad13,19",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad12,1",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad12,2",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad11,6",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad11,7",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad7,11",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad7,12",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad7,5",
-      "version": "17.5.1"
+      "version": "17.7.3"
     },
     {
       "hardware": "iPad7,6",
-      "version": "17.5.1"
+      "version": "17.7.3"
     },
     {
       "hardware": "iPad6,11",
-      "version": "16.7.7"
+      "version": "16.7.10"
     },
     {
       "hardware": "iPad6,12",
-      "version": "16.7.7"
+      "version": "16.7.10"
+    },
+    {
+      "hardware": "iPad16,1",
+      "version": "18.2"
+    },
+    {
+      "hardware": "iPad16,2",
+      "version": "18.2"
     },
     {
       "hardware": "iPad14,1",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad14,2",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad11,1",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad11,2",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad5,1",
-      "version": "15.8.2"
+      "version": "15.8.3"
     },
     {
       "hardware": "iPad5,2",
-      "version": "15.8.2"
+      "version": "15.8.3"
     },
     {
       "hardware": "iPad14,8",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad14,9",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad14,10",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad14,11",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad13,16",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad13,17",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad13,1",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad13,2",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad11,3",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad11,4",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad5,3",
-      "version": "15.8.2"
+      "version": "15.8.3"
     },
     {
       "hardware": "iPad5,4",
-      "version": "15.8.2"
+      "version": "15.8.3"
     },
     {
       "hardware": "iPad16,3",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad16,4",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad16,5",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad16,6",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad14,3",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad14,4",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad14,5",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad14,6",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad13,4",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad13,5",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad13,6",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad13,7",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad13,8",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad13,9",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad13,10",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad13,11",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad8,9",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad8,10",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad8,11",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad8,12",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad8,1",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad8,2",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad8,3",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad8,4",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad8,5",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad8,6",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad8,7",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad8,8",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPad7,3",
-      "version": "17.5.1"
+      "version": "17.7.3"
     },
     {
       "hardware": "iPad7,4",
-      "version": "17.5.1"
+      "version": "17.7.3"
     },
     {
       "hardware": "iPad7,1",
-      "version": "17.5.1"
+      "version": "17.7.3"
     },
     {
       "hardware": "iPad7,2",
-      "version": "17.5.1"
+      "version": "17.7.3"
     },
     {
       "hardware": "iPad6,3",
-      "version": "16.7.7"
+      "version": "16.7.10"
     },
     {
       "hardware": "iPad6,4",
-      "version": "16.7.7"
+      "version": "16.7.10"
     },
     {
       "hardware": "iPad6,7",
-      "version": "16.7.7"
+      "version": "16.7.10"
     },
     {
       "hardware": "iPad6,8",
-      "version": "16.7.7"
+      "version": "16.7.10"
+    },
+    {
+      "hardware": "iPhone17,2",
+      "version": "18.2"
+    },
+    {
+      "hardware": "iPhone17,1",
+      "version": "18.2"
+    },
+    {
+      "hardware": "iPhone17,4",
+      "version": "18.2"
+    },
+    {
+      "hardware": "iPhone17,3",
+      "version": "18.2"
     },
     {
       "hardware": "iPhone16,2",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPhone16,1",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPhone15,5",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPhone15,4",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPhone15,3",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPhone15,2",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPhone14,8",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPhone14,7",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPhone14,6",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPhone14,3",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPhone14,2",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPhone14,5",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPhone14,4",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPhone13,4",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPhone13,3",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPhone13,2",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPhone13,1",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPhone12,8",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPhone12,5",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPhone12,3",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPhone12,1",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPhone11,8",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPhone11,4",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPhone11,6",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPhone11,2",
-      "version": "17.5.1"
+      "version": "18.2"
     },
     {
       "hardware": "iPhone10,3",
@@ -387,6 +411,34 @@
     {
       "hardware": "iPhone10,4",
       "version": "16.7.7"
+    },
+    {
+      "hardware": "iPhone9,2",
+      "version": "15.8.3"
+    },
+    {
+      "hardware": "iPhone9,4",
+      "version": "15.8.3"
+    },
+    {
+      "hardware": "iPhone9,1",
+      "version": "15.8.3"
+    },
+    {
+      "hardware": "iPhone9,3",
+      "version": "15.8.3"
+    },
+    {
+      "hardware": "iPhone8,4",
+      "version": "15.8.3"
+    },
+    {
+      "hardware": "iPhone8,2",
+      "version": "15.8.3"
+    },
+    {
+      "hardware": "iPhone8,1",
+      "version": "15.8.3"
     }
   ]
 }
