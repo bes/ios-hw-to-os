@@ -1,27 +1,58 @@
-use crate::output::{Device, Output};
-use crate::source::Source;
-use std::fs;
+use clap::{Parser, Subcommand};
+use std::error::Error;
+use std::path::PathBuf;
 
-mod output;
+mod appledb;
+mod mappings;
 mod source;
 
-fn main() {
-    let yaml = fs::read_to_string("source.yaml").unwrap();
-    let source: Source = serde_yaml::from_str(&yaml).unwrap();
+const DEFAULT_SOURCE: &str = "source.yaml";
+const DEFAULT_MAPPINGS: &str = "mappings.json";
 
-    let mut output = Output {
-        devices: Vec::new(),
-    };
+/// Mappings from iOS / iPadOS hardware string to latest supported OS version.
+#[derive(Debug, Parser)]
+#[command(version, about)]
+struct Cli {
+    #[command(subcommand)]
+    command: Command,
+}
 
-    for device in source.devices.iter() {
-        for hardware in device.hardware.iter() {
-            output.devices.push(Device {
-                version: &device.version,
-                hardware,
-            })
+#[derive(Debug, Subcommand)]
+enum Command {
+    UpdateSource {
+        #[arg(short, long, default_value = DEFAULT_SOURCE)]
+        output: PathBuf,
+    },
+    WriteMappings {
+        #[arg(short, long, default_value = DEFAULT_SOURCE)]
+        source: PathBuf,
+        #[arg(short, long, default_value = DEFAULT_MAPPINGS)]
+        output: PathBuf,
+    },
+}
+
+#[tokio::main]
+async fn main() {
+    if let Err(error) = run().await {
+        eprintln!("error: {error}");
+        std::process::exit(1);
+    }
+}
+
+async fn run() -> Result<(), Box<dyn Error>> {
+    match Cli::parse().command {
+        Command::UpdateSource { output } => {
+            let updated = appledb::fetch_source().await?;
+            source::write(&updated, &output).await?;
+            let hardware: usize = updated.devices.iter().map(|d| d.hardware.len()).sum();
+            eprintln!("Wrote {} ({hardware} hardware strings)", output.display());
+        }
+        Command::WriteMappings { source, output } => {
+            let parsed = source::read(&source).await?;
+            mappings::write(&parsed, &output).await?;
+            let hardware: usize = parsed.devices.iter().map(|d| d.hardware.len()).sum();
+            eprintln!("Wrote {} ({hardware} hardware strings)", output.display());
         }
     }
-
-    let output = serde_json::to_string_pretty(&output).unwrap();
-    println!("{}", output);
+    Ok(())
 }

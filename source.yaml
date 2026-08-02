@@ -1,5 +1,5 @@
 metadata:
-  last_updated: 2025-11-22
+  last_updated: 2026-09-19
 devices:
 
 # iPad
@@ -8,7 +8,7 @@ devices:
 
 ## Supported iPad versions
 - type: iPad
-  version: "26.1"
+  version: "27.0"
   status: Supported
   hardware:
   - iPad15,7
@@ -17,24 +17,28 @@ devices:
   - iPad13,19
   - iPad12,1
   - iPad12,2
-  - iPad11,6
-  - iPad11,7
 
 ## Unsupported iPad versions
 - type: iPad
-  version: "18.7.2"
+  version: "26.7"
+  status: Unsupported
+  hardware:
+  - iPad11,6
+  - iPad11,7
+- type: iPad
+  version: "18.7.10"
   status: Unsupported
   hardware:
   - iPad7,11
   - iPad7,12
 - type: iPad
-  version: "17.7.10"
+  version: "17.7.11"
   status: Unsupported
   hardware:
   - iPad7,5
   - iPad7,6
 - type: iPad
-  version: "16.7.12"
+  version: "16.7.16"
   status: Unsupported
   hardware:
   - iPad6,11
@@ -46,19 +50,23 @@ devices:
 
 ## Supported iPad Mini versions
 - type: iPadMini
-  version: "26.1"
+  version: "27.0"
   status: Supported
   hardware:
   - iPad16,1
   - iPad16,2
   - iPad14,1
   - iPad14,2
-  - iPad11,1
-  - iPad11,2
 
 ## Unsupported iPad Mini versions
 - type: iPadMini
-  version: "15.8.5"
+  version: "26.7"
+  status: Unsupported
+  hardware:
+  - iPad11,1
+  - iPad11,2
+- type: iPadMini
+  version: "15.8.8"
   status: Unsupported
   hardware:
   - iPad5,1
@@ -70,9 +78,13 @@ devices:
 
 ## Supported iPad Air versions
 - type: iPadAir
-  version: "26.1"
+  version: "27.0"
   status: Supported
   hardware:
+  - iPad16,8
+  - iPad16,9
+  - iPad16,10
+  - iPad16,11
   - iPad15,3
   - iPad15,4
   - iPad15,5
@@ -81,16 +93,20 @@ devices:
   - iPad14,9
   - iPad14,10
   - iPad14,11
-  - iPad13,16
-  - iPad13,17
   - iPad13,1
   - iPad13,2
-  - iPad11,3
-  - iPad11,4
+  - iPad13,16
+  - iPad13,17
 
 ## Unsupported iPad Air versions
 - type: iPadAir
-  version: "15.8.5"
+  version: "26.7"
+  status: Unsupported
+  hardware:
+  - iPad11,3
+  - iPad11,4
+- type: iPadAir
+  version: "15.8.8"
   status: Unsupported
   hardware:
   - iPad5,3
@@ -102,7 +118,7 @@ devices:
 
 ## Supported iPad Pro versions
 - type: iPadPro
-  version: "26.1"
+  version: "27.0"
   status: Supported
   hardware:
   - iPad17,1
@@ -129,6 +145,12 @@ devices:
   - iPad8,10
   - iPad8,11
   - iPad8,12
+
+## Unsupported iPad Pro versions
+- type: iPadPro
+  version: "26.7"
+  status: Unsupported
+  hardware:
   - iPad8,1
   - iPad8,2
   - iPad8,3
@@ -137,18 +159,16 @@ devices:
   - iPad8,6
   - iPad8,7
   - iPad8,8
-
-# Unsupported iPad Pro versions
 - type: iPadPro
-  version: "17.7.10"
+  version: "17.7.11"
   status: Unsupported
   hardware:
-  - iPad7,3
-  - iPad7,4
   - iPad7,1
   - iPad7,2
+  - iPad7,3
+  - iPad7,4
 - type: iPadPro
-  version: "16.7.12"
+  version: "16.7.16"
   status: Unsupported
   hardware:
   - iPad6,3
@@ -160,73 +180,80 @@ devices:
 # iPhone
 # iPhone
 
+## Unreleased iPhone versions
+- type: iPhone
+  version: "27.0"
+  status: Unreleased
+  hardware:
+  - iPhone19,4
+
 ## Supported iPhone versions
 - type: iPhone
-  version: "26.1"
+  version: "27.0"
   status: Supported
   hardware:
-  - iPhone18,2
+  - iPhone19,2
+  - iPhone19,3
+  - iPhone19,7
   - iPhone18,1
-  - iPhone18,4
+  - iPhone18,2
   - iPhone18,3
-  - iPhone17,5
-  - iPhone17,2
+  - iPhone18,4
+  - iPhone18,5
   - iPhone17,1
-  - iPhone17,4
+  - iPhone17,2
   - iPhone17,3
-  - iPhone16,2
+  - iPhone17,4
+  - iPhone17,5
   - iPhone16,1
-  - iPhone15,5
-  - iPhone15,4
-  - iPhone15,3
+  - iPhone16,2
   - iPhone15,2
-  - iPhone14,8
-  - iPhone14,7
-  - iPhone14,6
-  - iPhone14,3
+  - iPhone15,3
+  - iPhone15,4
+  - iPhone15,5
   - iPhone14,2
-  - iPhone14,5
+  - iPhone14,3
   - iPhone14,4
-  - iPhone13,4
-  - iPhone13,3
-  - iPhone13,2
+  - iPhone14,5
+  - iPhone14,6
+  - iPhone14,7
+  - iPhone14,8
   - iPhone13,1
-  - iPhone12,8
-  - iPhone12,5
-  - iPhone12,3
+  - iPhone13,2
+  - iPhone13,3
+  - iPhone13,4
   - iPhone12,1
+  - iPhone12,3
+  - iPhone12,5
+  - iPhone12,8
 
 ## Unsupported iPhone versions
 - type: iPhone
-  version: "18.7.1"
+  version: "18.7.10"
   status: Unsupported
   hardware:
-  - iPhone11,8
+  - iPhone11,2
   - iPhone11,4
   - iPhone11,6
-  - iPhone11,2
+  - iPhone11,8
 - type: iPhone
-  version: "16.7.12"
+  version: "16.7.16"
   status: Unsupported
   hardware:
-  - iPhone11,8
-  - iPhone11,4
-  - iPhone11,6
-  - iPhone11,2
-  - iPhone10,3
-  - iPhone10,6
-  - iPhone10,2
-  - iPhone10,5
   - iPhone10,1
+  - iPhone10,2
+  - iPhone10,3
   - iPhone10,4
+  - iPhone10,5
+  - iPhone10,6
 - type: iPhone
-  version: "15.8.5"
+  version: "15.8.8"
   status: Unsupported
   hardware:
-  - iPhone9,2
-  - iPhone9,4
   - iPhone9,1
+  - iPhone9,2
   - iPhone9,3
-  - iPhone8,4
-  - iPhone8,2
+  - iPhone9,4
   - iPhone8,1
+  - iPhone8,2
+  - iPhone8,4
