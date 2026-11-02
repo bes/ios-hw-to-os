@@ -1,5 +1,5 @@
 metadata:
-  last_updated: 2026-09-19
+  last_updated: 2026-11-02
 devices:
 
 # iPad
@@ -8,7 +8,7 @@ devices:
 
 ## Supported iPad versions
 - type: iPad
-  version: "27.0"
+  version: "27.2"
   status: Supported
   hardware:
   - iPad15,7
@@ -20,13 +20,13 @@ devices:
 
 ## Unsupported iPad versions
 - type: iPad
-  version: "26.7"
+  version: "26.7.2"
   status: Unsupported
   hardware:
   - iPad11,6
   - iPad11,7
 - type: iPad
-  version: "18.7.10"
+  version: "18.7.11"
   status: Unsupported
   hardware:
   - iPad7,11
@@ -50,9 +50,11 @@ devices:
 
 ## Supported iPad Mini versions
 - type: iPadMini
-  version: "27.0"
+  version: "27.2"
   status: Supported
   hardware:
+  - iPad19,1
+  - iPad19,2
   - iPad16,1
   - iPad16,2
   - iPad14,1
@@ -60,7 +62,7 @@ devices:
 
 ## Unsupported iPad Mini versions
 - type: iPadMini
-  version: "26.7"
+  version: "26.7.2"
   status: Unsupported
   hardware:
   - iPad11,1
@@ -78,7 +80,7 @@ devices:
 
 ## Supported iPad Air versions
 - type: iPadAir
-  version: "27.0"
+  version: "27.2"
   status: Supported
   hardware:
   - iPad16,8
@@ -100,7 +102,7 @@ devices:
 
 ## Unsupported iPad Air versions
 - type: iPadAir
-  version: "26.7"
+  version: "26.7.2"
   status: Unsupported
   hardware:
   - iPad11,3
@@ -118,7 +120,7 @@ devices:
 
 ## Supported iPad Pro versions
 - type: iPadPro
-  version: "27.0"
+  version: "27.2"
   status: Supported
   hardware:
   - iPad17,1
@@ -148,7 +150,7 @@ devices:
 
 ## Unsupported iPad Pro versions
 - type: iPadPro
-  version: "26.7"
+  version: "26.7.2"
   status: Unsupported
   hardware:
   - iPad8,1
@@ -180,20 +182,14 @@ devices:
 # iPhone
 # iPhone
 
-## Unreleased iPhone versions
-- type: iPhone
-  version: "27.0"
-  status: Unreleased
-  hardware:
-  - iPhone19,4
-
 ## Supported iPhone versions
 - type: iPhone
-  version: "27.0"
+  version: "27.2"
   status: Supported
   hardware:
   - iPhone19,2
   - iPhone19,3
+  - iPhone19,4
   - iPhone19,7
   - iPhone18,1
   - iPhone18,2
@@ -229,7 +225,7 @@ devices:
 
 ## Unsupported iPhone versions
 - type: iPhone
-  version: "18.7.10"
+  version: "18.7.11"
   status: Unsupported
   hardware:
   - iPhone11,2
